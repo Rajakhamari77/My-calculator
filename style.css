@@ -1,14 +1,18 @@
 
 html,
 body {
+ 
   height: 100%;
   width: 100%;
   font-family: 'Roboto', sans-serif;
+  opacity: 1 ;
 }
 
 body {
-  background-color: #5fbaba;
-  
+  background-image: url(img.jpg);
+  background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center; 
 }
 
 .button {
@@ -22,7 +26,7 @@ body {
 }
 
 .button:hover {
-  background-color: #c88080;
+  background-color: #8087d4;
 }
 
 .row {
